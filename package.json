@@ -1,0 +1,21 @@
+{
+  "name": "@example/starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/compiler-sfc": "^3.2.31",
+    "astro": "^0.23.1"
+  },
+  "dependencies": {
+    "@nanostores/vue": "^0.5.5",
+    "nanostores": "^0.5.10",
+    "vue": "^3.2.31"
+  }
+}
